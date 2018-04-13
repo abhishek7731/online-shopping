@@ -3,11 +3,7 @@
 		<div class="row">
 
 			<div class="col-md-3">
-				<p class="lead">Shop Name</p>
-				<div class="list-group">
-					<a href="#" class="list-group-item">Category 1</a> <a href="#"
-						class="list-group-item">Category 2</a> <a href="#"
-						class="list-group-item">Category 3</a>
+				<%@include file="./shared/sidebar.jsp" %>   <!-- here we are just including the file  while the real defination or implementation is given in shared.jsp file -->
 				</div>
 			</div>
 
